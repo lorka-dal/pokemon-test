@@ -1,7 +1,9 @@
 склонировать .env.example файл
 
-запуск приложения ./vendor/bin/sail up
+docker-compose up
 
-запуск композера ./vendor/bin/sail composer install
+composer install
+
+запуск приложения ./vendor/bin/sail up
 
 бд не использовалась, только api
